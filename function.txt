@@ -37,3 +37,93 @@ expense(1000)
 500
 expense(taxpay(2500))
 1125
+function expense(salary){
+    var billpay = 200
+    return salary - billpay
+}
+undefined
+expense(taxpay(1125))
+531.25
+function expense(salary){
+    var billpay = 200
+    return salary - 1000 -billpay
+}
+undefined
+expense(taxpay(1000))
+-550
+expense(taxpay(10000))
+5300
+function expense(salary){
+    var billpay = 14 * 100
+    return salary - 1000 -billpay
+}
+undefined
+expense(taxpay(10000))
+4100
+function billpay(){
+    var electricity
+    electricity + 700 + 100 + 2000 + 5000
+    return electricity
+}
+
+undefined
+electricity()
+VM2899:1 Uncaught ReferenceError: electricity is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2899:1
+electricity()
+
+VM2910:1 Uncaught ReferenceError: electricity is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2910:1
+function billpay(){
+    var electricity = 0
+    electricity + 700 + 100 + 2000 + 5000
+    return electricity
+}
+
+undefined
+electricity()
+
+VM2939:1 Uncaught ReferenceError: electricity is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2939:1
+billpay()
+0
+function billpay(){
+    var food = 0
+    food = foods + 700 
+    food = foods + 100 
+    food = foods + 2000 + 5000
+    return electricity
+}
+
+undefined
+function billpay(){
+    var food = 0
+    food = foods + 750 
+    food = foods + 1075 
+    food = foods + 2000 
+    food = foods + 5000
+    return food
+}
+
+undefined
+billpay()
+VM3289:3 Uncaught ReferenceError: foods is not defined
+    at billpay (<anonymous>:3:5)
+    at <anonymous>:1:1
+billpay @ VM3289:3
+(anonymous) @ VM3330:1
+function billpay(){
+    var foods = 0
+    foods = foods + 750 
+    foods = foods + 1075 
+    foods = foods + 2000 
+    foods = foods + 5000
+    return foods
+}
+
+undefined
+billpay()
+8825
