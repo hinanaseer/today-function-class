@@ -1,0 +1,39 @@
+function taxpay(salary){
+    deductTax = salary *0.35
+    return salary - deductTax
+}
+undefined
+taxpay(2000)
+1300
+function taxpay(salary){
+    _taxax = salary *0.35
+    return salary - _tax
+}
+undefined
+taxpay(1000)
+NaN
+function taxpay(salary){
+    _tax = salary *0.35
+    return salary - _tax
+}
+undefined
+taxpay(1000)
+650
+function expense(salary){
+    monthlyExp = salary - 500
+    return monthlyExp - salary
+}
+undefined
+expense(2000)
+-500
+expense(2000)
+-500
+function expense(salary){
+    monthlyExp = salary - 500
+    return monthlyExp
+}
+undefined
+expense(1000)
+500
+expense(taxpay(2500))
+1125
